@@ -5,6 +5,7 @@ const photos = [
   './img/b_2.png',
   './img/b_3.png',
   './img/b_1.png',
+  './img/b_4.png',
 ];
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
   //       return (current + 1) === photos.length ? 0 : current + 1;
   //     });
   //   }, 4000); // Mudar a cada 4 segundos
-  // })
+  // });
 
   return (
     <>

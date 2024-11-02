@@ -98,7 +98,7 @@ h1 {
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 780px) {
   .highlighted-photo {
       height: 250px; /* Altura menor da imagem em dispositivos móveis */
   }
@@ -115,5 +115,13 @@ h1 {
   .thumbnail {
       width: 50px; /* Miniaturas um pouco menores no mobile */
       height: 50px;
+  }
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+    width: inherit;
   }
 }
